@@ -23,6 +23,15 @@ and log that count.
 - **Threading Support** (std::async for parallelism)
 
 ## Usage
+# Install Dependencies (If not already present)
+sudo apt-get install libopencv-dev
+
+# build project
+git clone https://github.com/your-username/Eagleview.git
+cd eagleview/src
+g++ -std=c++17 -o process_images process.cpp $(pkg-config --cflags --libs opencv4) -lstdc++fs -lpthread
+
+# Run
 ./process_images
 
 
