@@ -19,7 +19,6 @@ and log that count.
 
 - **C++17** or later
 - **OpenCV** 4.9 or later
-- **CMake** for building the project
 - **Threading Support** (std::async for parallelism)
 
 ## Usage
